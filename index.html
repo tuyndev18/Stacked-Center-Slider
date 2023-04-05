@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>3d Image Slider with Carousel using HTML & CSS</title>
+  <title>Stacked Center Slider using HTML, CSS, JAVASCRIPT</title>
   <link rel="stylesheet" href="./CarouselCenter.css">
   <style>
     body {
@@ -20,10 +20,18 @@
     <div class="slider-center__item"><img
         src="https://images.unsplash.com/photo-1680180349094-f1dd7ea58704?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1516&q=80"
         alt=""></div>
-    <div class="slider-center__item"><img src="https://images.unsplash.com/photo-1663594618279-e24e6e7d43c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80" alt=""></div>
-    <div class="slider-center__item"><img src="https://images.unsplash.com/photo-1580832331305-21ffd4d5759a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1512&q=80" alt=""></div>
-    <div class="slider-center__item"><img src="https://images.unsplash.com/photo-1584785585728-b398e75752fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80" alt=""></div>
-    <div class="slider-center__item"><img src="https://images.unsplash.com/photo-1581890990600-65c95fe7f487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1495&q=80" alt=""></div>
+    <div class="slider-center__item"><img
+        src="https://images.unsplash.com/photo-1663594618279-e24e6e7d43c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80"
+        alt=""></div>
+    <div class="slider-center__item"><img
+        src="https://images.unsplash.com/photo-1580832331305-21ffd4d5759a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1512&q=80"
+        alt=""></div>
+    <div class="slider-center__item"><img
+        src="https://images.unsplash.com/photo-1584785585728-b398e75752fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+        alt=""></div>
+    <div class="slider-center__item"><img
+        src="https://images.unsplash.com/photo-1581890990600-65c95fe7f487?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1495&q=80"
+        alt=""></div>
     <div class="slider-center__item"><img
         src="https://images.unsplash.com/photo-1680575618450-ef495854f7f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1545&q=80"
         alt=""></div>
@@ -36,17 +44,17 @@
     <div class="slider-center__item"><img
         src="https://images.unsplash.com/photo-1616849530487-79df21dcc7a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
         alt=""></div>
+    <div class="slider-center__btn--previous" id="previousSlide"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </div>
+    <div class="slider-center__btn--next" id="nextSlide"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </div>
   </section>
-  <!-- <ul class="slider-center__dots">
-    <li class="dot__item dot__item--active">1</li>
-    <li class="dot__item">2</li>
-    <li class="dot__item">3</li>
-    <li class="dot__item">4</li>
-    <li class="dot__item">5</li>
-  </ul> -->
-  <button id="previousSlide">PREVIOUS</button>
-  <button id="nextSlide">NEXT</button>
-
   <script src="./CarouselCenter.js"></script>
   <script src="./main.js"></script>
 </body>
