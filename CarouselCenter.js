@@ -113,8 +113,8 @@ class CarouselCenter {
   }
 
   setAutoPlay() {
-    setInterval(() => {
+    setInterval((timeOut) => {
       this.nextSlider();
-    }, 1500);
+    }, timeOut);
   }
 }
