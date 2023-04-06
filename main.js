@@ -7,5 +7,3 @@ document.querySelector("#previousSlide").addEventListener("click", function () {
 document.querySelector("#nextSlide").addEventListener("click", function () {
   slider.nextSlider();
 });
-
-slider.setAutoPlay()

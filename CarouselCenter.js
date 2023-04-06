@@ -115,6 +115,6 @@ class CarouselCenter {
   setAutoPlay() {
     setInterval(() => {
       this.nextSlider();
-    }, 2500);
+    }, 1500);
   }
 }
