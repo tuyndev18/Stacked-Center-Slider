@@ -112,8 +112,8 @@ class CarouselCenter {
     this.setStyleSlider(this.sliderCurrentIndex);
   }
 
-  setAutoPlay() {
-    setInterval((timeOut) => {
+  setAutoPlay(timeOut) {
+    setInterval(() => {
       this.nextSlider();
     }, timeOut);
   }
