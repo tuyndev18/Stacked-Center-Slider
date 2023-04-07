@@ -1,6 +1,6 @@
 const slider = new CarouselCenter();
 
-slider.setAutoPlay(2000)
+slider.setAutoPlay(2500)
 
 document.querySelector("#previousSlide").addEventListener("click", function () {
   slider.previousSlider();
